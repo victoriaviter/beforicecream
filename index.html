@@ -5,31 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./scss/main.css" />
 </head>
 <body>
-   <section>
-        <div class="container">
-                <span>tradition and love</span>
-                <h1>how it’s made?</h1>
-                <img srcset="./img/cow2x.png" src="./img/cow1x.png" alt="cow and milk">
-            <div>
-                <h3>Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas
+<div class="bg__color"><section class="about">
+    <div class="container">
+        <span class="about__label">tradition and love</span>
+        <h1 class="about__title">how it’s made?</h1>
+        <img class="about__img" src="./img/cow1x.png" alt="cow and milk">
+        <div>
+            <h3 class="about__reason about__reason-bold">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam
+                vel justo cursus, faucibus lorem eget, egestas
                 eros.
                 Maecenas eleifend erat at justo fringilla.
-                </h3>
-                <p>Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat.
+            </h3>
+            <p class="about__reason">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris
+                rhoncus orci in imperdiet placerat.
                 Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
-                </p>
-                <p>
+            </p>
+            <p class="about__reason">
                 Aliquam erat volutpat. Aenean accumsan.
-                </p>
-                    <button type="button"> Read more
-                        <svg>
-                            <use href="./img/sprite.svg#icon-bicon"></use>
-                        </svg>
-                    </button>
-            </div>
+            </p>
+            <button type="button" class="about__button"> Read more
+                <svg height="8" width="4.43">
+                    <use href="./img/sprite.svg#icon-bicon"></use>
+                </svg>
+            </button>
         </div>
-   </section> 
+    </div>
+</section>
+</div>
 </body>
 </html>
